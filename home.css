@@ -1,0 +1,196 @@
+* {box-sizing: border-box;
+  color: #a36c64;
+  font-size: 17px;
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #C3D2D8;
+  color: #a36c64;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #347893;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: #F9D8D2;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #F9D8D2;
+  color: #205565;
+}
+
+#navbar a.active {
+  background-color: rgb(252, 176, 176);
+  color: #205565;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+  .leftcolumn{   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+form.find input[type=text] {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.find button {
+    margin-top: 20px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #205565;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.find button:hover {
+    background: #205565c5;
+  }
+  
+  form.find::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .leftcolumn {   
+    width: 100%;
+  }
+  
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  form.card input[type=text] {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.card button {
+    margin-top: 20px;
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #205565;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    
+  }
+  
+  form.card button:hover {
+    background: #2f778dc5;
+  }
+  
+  form.card::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   /*--------------------------------------------LOGIN-------------------------------------*/
+   input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.2em;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: rgba(45, 91, 102, 0.315);
+    outline: none;
+  }
+  
+  
+  .submit {
+    background-color: #205565;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .submit:hover {
+    background: #205565c5;
+  }
+  .main h1{
+    margin: 80px 0 20px;
+    color: #ee9e90;
+    width: 500px;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
+.main {
+  margin: 5% auto 15% auto; 
+  width: 40%; 
+  color: #b46e62;
+  margin-bottom: 10px;
+}
